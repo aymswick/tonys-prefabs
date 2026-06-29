@@ -1,0 +1,18 @@
+name: feature
+description: A repeatable feature brick using the bloc|view paradigm.
+
+# The following defines the brick repository url.
+# Uncomment and update the following line before publishing the brick.
+# repository: https://github.com/my_org/my_repo
+
+version: 0.1.0+1
+
+environment:
+  mason: ^0.1.2
+
+vars:
+  name:
+    type: string
+    description: Name of your feature
+    default: wizbang
+    prompt: What's the feature called?
