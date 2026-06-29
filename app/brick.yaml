@@ -3,7 +3,7 @@ description: A concise app start including a main runner, an app entrypoint + ro
 
 # The following defines the brick repository url.
 # Uncomment and update the following line before publishing the brick.
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/aymswick/tonys-prefabs
 
 version: 0.1.0+1
 
