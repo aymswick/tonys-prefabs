@@ -1,0 +1,7 @@
+name: tonys_prefabs_app_hooks
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  mason: ^0.1.2

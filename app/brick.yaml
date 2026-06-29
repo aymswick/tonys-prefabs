@@ -1,0 +1,18 @@
+name: app
+description: A concise app start including a main runner, an app entrypoint + router, and 3 features (intro, login, home).
+
+# The following defines the brick repository url.
+# Uncomment and update the following line before publishing the brick.
+# repository: https://github.com/my_org/my_repo
+
+version: 0.1.0+1
+
+environment:
+  mason: ^0.1.2
+
+vars:
+  name:
+    type: string
+    description: Application name
+    default: sideproject
+    prompt: What is your app's name?
